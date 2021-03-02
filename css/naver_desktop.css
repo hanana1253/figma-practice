@@ -99,14 +99,12 @@ body *, body *::before, body *::after{
     background-color:inherit;
     font-size: 1.5rem;
 }
-.btn-ip > span{
-    display: none;
+.btn-ip .on{
+    color: #03C75A;
 }
-.btn-ip [role="switch"][aria-checked="false"]:first-child{
-    display: inline-block;
+.btn-ip .off{
     color: #999999;
 }
-.btn-ip [role="switch"][aria-checked="true"]:last-child {
-    display: inline-block;
-    color: #03C75A;
+.btn-ip > .unchecked{
+    display: none;
 }
