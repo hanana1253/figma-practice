@@ -84,4 +84,29 @@ body *, body *::before, body *::after{
     font-size: 1.5rem;
     line-height: 1.5rem;
 }
-
+.ip-protection{
+    padding: 1px;
+    font-size: 1.5rem;
+    order: 2;
+}
+.ip-page {
+    color: inherit;
+    text-decoration: none;
+}
+.btn-ip{
+    border: 0;
+    padding: 1px;
+    background-color:inherit;
+    font-size: 1.5rem;
+}
+.btn-ip > span{
+    display: none;
+}
+.btn-ip [role="switch"][aria-checked="false"]:first-child{
+    display: inline-block;
+    color: #999999;
+}
+.btn-ip [role="switch"][aria-checked="true"]:last-child {
+    display: inline-block;
+    color: #03C75A;
+}

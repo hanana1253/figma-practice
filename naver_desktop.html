@@ -25,9 +25,13 @@
                     <button type="button" role="switch"></button>
                     로그인 상태 유지
                 </label>
-                <span class="ip-protection">IP 보안
-                    <button type="button" role="switch" class="btn-ip">ON</button>
-                </span>
+                <div class="ip-protection">
+                    <a class="ip-page" href="#">IP 보안</a>
+                    <button aria-checked="true" type="button" role="switch" class="btn-ip">
+                        <span>off</span>
+                        <span>on</span>
+                    </button>
+                </div>
             </div>
             <button class="btn-login" type="submit">로그인</button>
         </fieldset>
