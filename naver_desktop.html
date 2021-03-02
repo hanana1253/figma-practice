@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/naver_desktop.css">
+</head>
+<body>
+    <h1 class="logo"><a href="#"><img src="./logo-bm.png" alt="로고이미지"></a></h1>
+    <form method="POST" action="#" class="login-form">
+        <fieldset>
+            <legend class="a11y-hidden">로그인 폼</legend>
+            <label for="user-id">
+                <input type="text" name="user-id" class="user-id" required="required" placeholder="아이디">
+                <span class="invalid-id">아이디를 입력해주세요.</span>
+            </label>
+            <label for="user-pw">
+                <input type="password" name="user-pw" class="user-pw" required="required" placeholder="비밀번호">
+                <span class="invalid-pw">비밀번호를 입력해주세요.</span>
+            </label>
+            <div class="login-option">
+                <label for="stayLoggedIn" class="stay-loggedin">
+                    <button type="button" role="switch"></button>
+                    로그인 상태 유지
+                </label>
+                <span class="ip-protection">IP 보안
+                    <button type="button" role="switch" class="btn-ip">ON</button>
+                </span>
+            </div>
+            <button class="btn-login" type="submit">로그인</button>
+        </fieldset>
+    </form>
+</body>
+</html>
